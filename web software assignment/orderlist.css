@@ -1,0 +1,75 @@
+body {
+    background-image: url(360_F_272168909_FcCGodX5FBhK8HeeLi4ozb3IUNYGAsFG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgba(4, 77, 66, 0.962);
+  }
+  
+  #order {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  #item {
+    margin-bottom: 10px;
+   
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+   
+    color: #000;
+    
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(147, 146, 146, 0.127);
+   
+    border: none;
+    
+    margin-bottom: 10px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border:none;
+    margin-bottom: 10px;
+    background-color: rgba(147, 146, 146, 0.127);
+   
+   
+  }
+  
+  button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(87, 177, 187);
+    color: black;
+  }
+  
+  button:hover {
+    background-color: rgb(66, 225, 240);
+  }
+  
+  .space-between {
+    margin-left: 10px;
+  }
+  
+  
+  
+  

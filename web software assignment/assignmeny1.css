@@ -1,0 +1,144 @@
+nav{
+    width: 100%;height: 10vh;
+    background: rgba(242, 136, 6, 0.788);
+    color:black;
+     display: flex;
+      justify-content: space-between;
+    align-items: center; 
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a:hover{
+     letter-spacing: 0.5pc;  
+     color: red;
+}
+h1{
+    text-align: center;
+}
+#intro h2{
+    padding-top: 10px;
+color: white;
+}
+#intro .builds{
+   
+    font-size: 25px;
+    color: white;
+   padding-left: 50px;
+   transform: translate(-50,-50);
+   animation-name: slide;
+   animation-duration: 15s;
+   animation-timing-function: linear;
+   
+   animation-iteration-count: infinite;
+}
+@keyframes slide {
+    from{
+        transform: translate(+100%);
+        
+    }
+    to{
+        transform: translate(-100);
+    }
+    
+}
+
+#intro  .build{
+    font-size: 50px;
+   color: white;
+    padding-left: 80px;
+}
+#intro{
+    
+    width: 100%;height: 80vh;
+    background-color: rgb(16, 16, 50);
+    text-align: center;
+}
+#intro button{
+    background-color:white;
+    padding: 20px 40px;
+    border-radius: 10px;
+
+}
+#intro button:hover{
+    background-color: rgb(240, 161, 4);
+}
+
+#body .quet{
+    font-size: 50px;
+    text-align: center;
+}
+.container ,.container2{
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(246, 246, 241);
+    
+}
+
+   
+
+
+main{
+    background-color: rgb(233, 225, 225);
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+
+    width: 32%;
+    height: 200px;
+    background-color: rgb(246, 246, 241);
+    text-align:center ;
+    
+}
+.icon{
+    padding-left: 60px;
+    width: 40px;
+    height: 40px;
+}
+.hed{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box:hover{
+    background-color:  rgba(244, 166, 11, 0.564);
+}
+footer{
+    width: 100%;height: 50vh;
+    background-color:rgb(16, 16, 50);
+    
+}
+.left{
+    color: white;
+    font-size: 20px;
+}
+h3{
+    position: relative;
+    color: rgb(255, 255, 255);
+    left: 40%;
+    font-size: 40px;
+}
+.left{
+    position: relative;
+   left: 5%;
+}
+.con{
+    color: rgb(225, 211, 7);
+    position: relative;
+    left: 5%;
+}
+.cons{
+    color: white;
+    position: relative;
+    left:5%;
+}
